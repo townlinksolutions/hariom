@@ -385,6 +385,8 @@
             <div class="hidden md:flex items-center gap-8">
                 <a href="#about" class="text-sm font-medium text-white hover:text-theme-accent transition-colors nav-link" data-key="nav.about">ನಮ್ಮ ಬಗ್ಗೆ</a>
                 <a href="#events" class="text-sm font-medium text-white hover:text-theme-accent transition-colors nav-link" data-key="nav.events">ಸಂಭ್ರಮಗಳು</a>
+                <!-- <a href="#gallery" class="text-sm font-medium text-white hover:text-theme-accent transition-colors nav-link" data-key="nav.gallery">ಗ್ಯಾಲರಿ</a> -->
+                <a href="#videos" class="text-sm font-medium text-white hover:text-theme-accent transition-colors nav-link" data-key="nav.videos">ವೀಡಿಯೊಗಳು</a>
                 <a href="#process" class="text-sm font-medium text-white hover:text-theme-accent transition-colors nav-link" data-key="nav.process">ವಿಧಾನ</a>
                 
                 <div class="flex items-center gap-2 bg-white/10 p-1 rounded-full border border-white/20 glass ml-4">
@@ -405,6 +407,8 @@
         <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-white shadow-xl py-6 px-8 flex flex-col gap-4 md:hidden">
             <a href="#about" class="text-lg font-medium text-gray-800 border-b border-gray-100 pb-2 nav-link" data-key="nav.about" onclick="toggleMobileMenu()">ನಮ್ಮ ಬಗ್ಗೆ</a>
             <a href="#events" class="text-lg font-medium text-gray-800 border-b border-gray-100 pb-2 nav-link" data-key="nav.events" onclick="toggleMobileMenu()">ಸಂಭ್ರಮಗಳು</a>
+            <!-- <a href="#gallery" class="text-lg font-medium text-gray-800 border-b border-gray-100 pb-2 nav-link" data-key="nav.gallery" onclick="toggleMobileMenu()">ಗ್ಯಾಲರಿ</a> -->
+            <a href="#videos" class="text-lg font-medium text-gray-800 border-b border-gray-100 pb-2 nav-link" data-key="nav.videos" onclick="toggleMobileMenu()">ವೀಡಿಯೊಗಳು</a>
             <a href="#process" class="text-lg font-medium text-gray-800 border-b border-gray-100 pb-2 nav-link" data-key="nav.process" onclick="toggleMobileMenu()">ವಿಧಾನ</a>
             <a href="#contact" class="text-lg font-medium text-gray-800 border-b border-gray-100 pb-2 nav-link" data-key="nav.contact" onclick="toggleMobileMenu()">ಸಂಪರ್ಕಿಸಿ</a>
             <button onclick="toggleLanguage(); toggleMobileMenu()" class="flex items-center gap-2 text-royal-maroon font-bold pt-2 uppercase text-sm">
@@ -451,7 +455,7 @@
     <!-- About -->
     <section id="about" class="py-24 bg-theme-bg">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
                 <div class="relative">
                     <div class="aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl relative z-10 border border-theme-accent/10">
                         <img src="https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/images/photo2.jpg" alt="Our Uniformed Women Catering Team in Bhatkal" class="w-full h-full object-cover" referrerpolicy="no-referrer" loading="lazy" decoding="async">
@@ -474,6 +478,30 @@
                             <h3 class="font-bold text-theme-ink text-sm uppercase tracking-wider" data-key="about.highlights.empowerment">ಮಹಿಳಾ ತಂಡ</h3>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <!-- Founder Section -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center flex-row-reverse">
+                <div class="lg:order-2 relative">
+                    <div class="aspect-square max-w-md mx-auto rounded-[3rem] overflow-hidden shadow-3xl border-8 border-white relative z-10">
+                        <img src="https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/images/real/govardhan.jpg" alt="Govardhan Naik - Founder of Hari Om Catering" class="w-full h-full object-cover">
+                    </div>
+                    <!-- Decorative pattern -->
+                    <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-theme-accent/5 rounded-full blur-3xl"></div>
+                </div>
+                <div class="lg:order-1">
+                    <div class="tag mb-4 !bg-theme-ink !text-theme-yellow" data-key="owner.title">ಸ್ಥಾಪಕರು ಮತ್ತು ಮಾಲೀಕರು</div>
+                    <h2 class="text-4xl md:text-5xl font-serif font-black text-theme-ink mb-2">
+                        <span data-key="owner.name">ಗೋವರ್ಧನ್ ನಾಯ್ಕ್</span>
+                    </h2>
+                    <p class="text-theme-accent font-bold mb-8 italic" data-key="owner.role">ಸ್ಥಾಪಕರು ಮತ್ತು ಮುಖ್ಯ ಸಂಪರ್ಕ ವ್ಯಕ್ತಿ</p>
+                    <p class="text-lg text-gray-600 leading-relaxed mb-8" data-key="owner.desc">ಕ್ಯಾಟರಿಂಗ್ ಕ್ಷೇತ್ರದಲ್ಲಿ 15ಕ್ಕೂ ಹೆಚ್ಚು ವರ್ಷಗಳ ಅಪಾರ ಅನುಭವ ಹೊಂದಿರುವ ಗೋವರ್ಧನ್ ನಾಯ್ಕ್ ಅವರು ಹರಿ ಓಂ ಕ್ಯಾಟರಿಂಗ್‌ನ ದೂರದೃಷ್ಟಿಯ ನಾಯಕರು.</p>
+                    
+                    <a href="#contact" class="inline-flex items-center gap-3 px-8 py-4 bg-theme-ink text-white font-bold rounded-full hover:bg-theme-accent transition-all transform hover:scale-105">
+                        <i data-lucide="phone"></i>
+                        <span>Contact Directly</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -706,7 +734,47 @@
         </div>
     </section>
 
-    <!-- Video Hub, Reels Mode, Gallery, and Full-Gallery Sections are temporarily removed as per user request -->
+    <!-- Video Hub -->
+    <section id="videos" class="py-24 bg-[#050505] text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col lg:flex-row gap-12">
+                <!-- Main Player Area -->
+                <div class="flex-1">
+                    <div class="tag !bg-theme-accent !text-theme-ink !border-none mb-4" data-key="nav.videos">Videos</div>
+                    <h2 class="text-4xl md:text-5xl font-serif font-black mb-8" data-key="videos.title">Highlights</h2>
+                    
+                    <div class="relative aspect-video rounded-[2.5rem] overflow-hidden group cursor-pointer shadow-3xl bg-theme-ink border border-white/5" onclick="openReelsMode()">
+                        <img id="main-hub-video-img" src="https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/images/photo1.jpg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000 opacity-60" referrerpolicy="no-referrer">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-24 h-24 rounded-full bg-theme-yellow text-theme-ink flex items-center justify-center pl-1 shadow-2xl scale-90 group-hover:scale-110 transition-transform">
+                                <i data-lucide="play" fill="currentColor" size="40"></i>
+                            </div>
+                        </div>
+                        <div class="absolute bottom-8 left-8 right-8 text-left">
+                            <p class="text-white/60 text-sm font-medium">Watch in Reels Mode</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Recommended Column -->
+                <div class="lg:w-80 h-[500px] flex flex-col text-left">
+                    <div id="hub-recommended-list" class="flex-1 overflow-y-auto custom-scrollbar pr-2">
+                        <!-- Recommended items injected here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reels Mode Overlay -->
+    <div id="reels-overlay" class="reels-overlay">
+        <button onclick="closeReelsMode()" class="absolute top-6 right-6 z-[110] w-12 h-12 rounded-full bg-white/10 backdrop-blur-md text-white flex items-center justify-center hover:bg-theme-accent transition-all border border-white/20">
+            <i data-lucide="x"></i>
+        </button>
+        <div id="reels-container" class="reels-container">
+            <!-- Reels go here -->
+        </div>
+    </div>
     
     <!-- Locations -->
     <section id="locations" class="py-24 bg-theme-ink text-white relative overflow-hidden text-center lg:text-left">
@@ -729,7 +797,20 @@
         </div>
     </section>
 
-    <!-- Gallery and Full Gallery Overlay are temporarily removed -->
+    <!-- Gallery -->
+    <!-- Gallery section hidden as requested -->
+    <!--
+    <section id="gallery" class="py-24 bg-theme-bg">
+        ... (hidden)
+    </section>
+    -->
+
+    <!-- Full Gallery Overlay hidden -->
+    <!--
+    <div id="full-gallery" class="full-gallery-overlay">
+        ... (hidden)
+    </div>
+    -->
 
     <!-- Reviews -->
     <section id="reviews" class="py-24 bg-theme-bg overflow-hidden">
@@ -899,6 +980,11 @@
                 "about.highlights.years": "15+ Years Experience",
                 "about.highlights.empowerment": "Women-Led Service",
                 "about.highlights.traditional": "Hygienic Traditional Care",
+                "owner.title": "Founder & Owner",
+                "owner.name": "Govardhan Naik",
+                "owner.role": "Founder & Main Point of Contact",
+                "owner.desc": "With 15+ years of extensive experience in the catering industry, Govardhan Naik is the visionary leader behind Hari Om Catering. His commitment to professional food serving and women empowerment has made Hari Om a household name in Bhatkal and beyond.",
+                "owner.experience": "15+ Years Mastery",
                 "services.title": "Professional Women-Led Food Serving",
                 "locations.title": "Our Service Coverage",
                 "locations.description": "Reliable catering and food serving teams for Bhatkal, Honnavar, Murudeshwar, Kumta, Kundapura, & Udupi.",
@@ -985,6 +1071,11 @@
                 "about.highlights.years": "15+ ವರ್ಷಗಳ ಅನುಭವ",
                 "about.highlights.empowerment": "ಮಹಿಳಾ ತಂಡ",
                 "about.highlights.traditional": "ನೈರ್ಮಲ್ಯ ಮತ್ತು ಕಾಳಜಿ",
+                "owner.title": "ಸ್ಥಾಪಕರು ಮತ್ತು ಮಾಲೀಕರು",
+                "owner.name": "ಗೋವರ್ಧನ್ ನಾಯ್ಕ್",
+                "owner.role": "ಸ್ಥಾಪಕರು ಮತ್ತು ಮುಖ್ಯ ಸಂಪರ್ಕ ವ್ಯಕ್ತಿ",
+                "owner.desc": "ಕ್ಯಾಟರಿಂಗ್ ಕ್ಷೇತ್ರದಲ್ಲಿ 15ಕ್ಕೂ ಹೆಚ್ಚು ವರ್ಷಗಳ ಅಪಾರ ಅನುಭವ ಹೊಂದಿರುವ ಗೋವರ್ಧನ್ ನಾಯ್ಕ್ ಅವರು ಹರಿ ಓಂ ಕ್ಯಾಟರಿಂಗ್‌ನ ದೂರದೃಷ್ಟಿಯ ನಾಯಕರು. ವೃತ್ತಿಪರ ಆಹಾರ ಬಡಿಸುವಿಕೆ ಮತ್ತು ಮಹಿಳಾ ಸಬಲೀಕರಣಕ್ಕೆ ಅವರ ಬದ್ಧತೆಯು ಹರಿ ಓಂ ಅನ್ನು ಭಟ್ಕಳ ಮತ್ತು ಸುತ್ತಮುತ್ತಲಿನ ಪ್ರದೇಶಗಳಲ್ಲಿ ಮನೆಮಾತಾಗಿಸಿದೆ.",
+                "owner.experience": "15+ ವರ್ಷಗಳ ಸಿದ್ಧಿ",
                 "services.title": "ಮಹಿಳಾ ತಂಡದಿಂದ ಅಚ್ಚುಕಟ್ಟಾದ ಆಹಾರ ಬಡಿಸುವಿಕೆ",
                 "locations.title": "ನಮ್ಮ ಸೇವಾ ವ್ಯಾಪ್ತಿ",
                 "locations.description": "ಭಟ್ಕಳ, ಹೊನ್ನಾವರ, ಕುಮಟಾ, ಮುರುಡೇಶ್ವರ, ಕುಂದಾಪುರ ಮತ್ತು ಉಡುಪಿಯಾದ್ಯಂತ ನಮ್ಮ ಮಹಿಳಾ ತಂಡ ಲಭ್ಯವಿದೆ.",
@@ -1328,12 +1419,12 @@
         }
 
         // Hub Video Update
-        let activeHubSeed = 'wedding';
+        let activeHubSeed = 'service_1';
         function updateHubVideo(seed, title) {
             activeHubSeed = seed;
-            const index = reelData.findIndex(r => r.seed === seed) % 20;
-            document.getElementById('main-hub-video-img').src = `https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/images/photo${index + 1}.jpg`;
-            document.getElementById('main-hub-title').innerText = title;
+            const index = reelData.findIndex(r => r.seed === seed);
+            document.getElementById('main-hub-video-img').src = `https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/images/photo${(index % 20) + 1}.jpg`;
+            
             // Add animation feel
             const img = document.getElementById('main-hub-video-img');
             img.classList.remove('animate-fade-in');
@@ -1344,14 +1435,10 @@
 
         // Reels Mode Logic
         const reelData = [
-            { id: 1, title: "Wedding Serving Excellence", desc: "A glimpse of our professional wedding team.", seed: "wedding_live_service", time: "12:45", views: "4.2k", video: "https://assets.mixkit.co/videos/preview/mixkit-serving-food-at-a-restaurant-41445-large.mp4" },
-            { id: 2, title: "Elite Party Hosting", desc: "Hosting with absolute grace and care.", seed: "party_hosting_demo", time: "08:20", views: "2.1k", video: "https://assets.mixkit.co/videos/preview/mixkit-chef-preparing-a-dish-in-the-kitchen-41444-large.mp4" },
-            { id: 3, title: "Hygiene Protocols", desc: "Safety and cleanliness first, always.", seed: "serving_hygiene_check", time: "15:10", views: "1.5k", video: "https://assets.mixkit.co/videos/preview/mixkit-close-up-of-a-person-pouring-coffee-into-a-cup-41441-large.mp4" },
-            { id: 4, title: "Corporate Service Demo", desc: "Professional serving for business.", seed: "business_serving_staff", time: "05:30", views: "980", video: "https://assets.mixkit.co/videos/preview/mixkit-top-view-of-a-table-full-of-food-41440-large.mp4" },
-            { id: 5, title: "Women Power Spotlight", desc: "Our strength comes from empowerment.", seed: "women_team_power", time: "04:15", views: "3.2k", video: "https://assets.mixkit.co/videos/preview/mixkit-picking-up-a-slice-of-pizza-41438-large.mp4" },
-            { id: 6, title: "Traditional Serving", desc: "Maintaining our roots in every serve.", seed: "traditional_kannada_serving", time: "07:45", views: "1.8k", video: "https://assets.mixkit.co/videos/preview/mixkit-person-pouring-white-wine-into-a-glass-41437-large.mp4" },
-            { id: 7, title: "Engagement Special", desc: "Making your engagement memorable.", seed: "engagement_party_service", time: "06:20", views: "1.1k", video: "https://assets.mixkit.co/videos/preview/mixkit-pouring-red-wine-into-a-glass-41436-large.mp4" },
-            { id: 8, title: "Team Coordination", desc: "How we manage large scale events.", seed: "team_management_serving", time: "09:00", views: "2.5k", video: "https://assets.mixkit.co/videos/preview/mixkit-chef-tasting-food-from-a-pan-41435-large.mp4" }
+            { id: 1, title: "Service Highlight 1", desc: "Expert food serving", seed: "service_1", time: "00:30", views: "1.2k", video: "https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/videos/VID-20260510-WA0000.mp4" },
+            { id: 2, title: "Service Highlight 2", desc: "Traditional excellence", seed: "service_2", time: "00:45", views: "2.1k", video: "https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/videos/VID-20260510-WA0001.mp4" },
+            { id: 3, title: "Service Highlight 3", desc: "Women-led professionalism", seed: "service_3", time: "00:15", views: "3.4k", video: "https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/videos/VID-20260509-WA0039.mp4" },
+            { id: 4, title: "Service Highlight 4", desc: "Hygienic catering", seed: "service_4", time: "00:20", views: "1.8k", video: "https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/videos/VID-20260509-WA0040.mp4" }
         ];
 
         function renderRecommended() {
@@ -1365,8 +1452,7 @@
                                 <img src="https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/images/photo${(i % 20) + 1}.jpg" class="w-full h-full object-cover" referrerpolicy="no-referrer">
                             </div>
                             <div class="flex-1">
-                                <h5 class="text-white text-[11px] font-bold leading-tight line-clamp-2">${currentLang === 'kn' ? 'ವೀಡಿಯೊ: ' + reel.title : reel.title}</h5>
-                                <span class="text-[9px] text-white/40 font-medium">${reel.time} • ${reel.views} Views</span>
+                                <!-- Captions removed -->
                             </div>
                         </div>
                     `).join('')}
@@ -1381,32 +1467,23 @@
             document.body.style.overflow = 'hidden';
             
             container.innerHTML = reelData.map((reel, i) => `
-                <div class="reel-item" id="reel-${reel.seed}">
+                <div class="reel-item mb-20 border-b border-white/10" id="reel-${reel.seed}">
                     <video 
-                        class="reel-video w-full h-full object-cover transition-opacity duration-1000" 
+                        class="reel-video w-full h-full object-cover transition-opacity duration-1000 cursor-pointer" 
                         poster="https://raw.githubusercontent.com/townlinksolutions/townlinksolutions/main/hariom/images/photo${(i % 20) + 1}.jpg"
                         loop 
-                        muted 
                         playsinline
                         referrerpolicy="no-referrer"
                         src="${reel.video}"
+                        onclick="this.paused ? this.play() : this.pause()"
                     ></video>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80 pointer-events-none"></div>
-                    <div class="reel-info pointer-events-none">
-                        <h3 class="text-xl font-bold mb-1">${reel.title}</h3>
-                        <p class="text-sm text-white/70">${reel.desc}</p>
-                        <div class="mt-4 flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-full bg-theme-accent flex items-center justify-center font-bold text-xs text-white">Q</div>
-                            <span class="text-xs font-bold">Hari Om</span>
+                    <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                        <div class="w-16 h-16 rounded-full bg-theme-yellow/20 backdrop-blur-sm border border-white/20 flex items-center justify-center pl-1 group-hover:scale-110 transition-transform">
+                             <i data-lucide="play" class="text-white w-8 h-8 opacity-60"></i>
                         </div>
                     </div>
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/40 pointer-events-none"></div>
                     <div class="reel-actions">
-                        <div class="flex flex-col items-center gap-1 mb-4">
-                            <div onclick="toggleReelMute(this)" class="reel-share-btn">
-                                <i data-lucide="volume-x" class="w-6 h-6"></i>
-                            </div>
-                            <span class="text-[10px] font-bold">Mute</span>
-                        </div>
                         <div class="flex flex-col items-center gap-1">
                             <div onclick="shareReel('${reel.title}')" class="reel-share-btn">
                                 <i data-lucide="share-2" class="w-6 h-6"></i>
@@ -1418,6 +1495,14 @@
             `).join('');
             
             lucide.createIcons();
+
+            // Scroll to active hub video if exists
+            if (activeHubSeed) {
+                const targetReel = document.getElementById(`reel-${activeHubSeed}`);
+                if (targetReel) {
+                    container.scrollTop = targetReel.offsetTop;
+                }
+            }
             
             // Intersection Observer for Autoplay
             const observerOptions = {
@@ -1428,13 +1513,21 @@
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     const video = entry.target.querySelector('video');
+                    const playIcon = entry.target.querySelector('.lucide-play');
+                    
                     if (entry.isIntersecting) {
-                        video.play().catch(e => console.log("Autoplay blocked or failed", e));
                         video.style.opacity = "1";
                     } else {
                         video.pause();
-                        video.style.opacity = "0.8";
+                        video.style.opacity = "0.7";
                     }
+
+                    video.onplay = () => {
+                        if (playIcon) playIcon.parentElement.style.opacity = '0';
+                    };
+                    video.onpause = () => {
+                        if (playIcon) playIcon.parentElement.style.opacity = '1';
+                    };
                 });
             }, observerOptions);
 
@@ -1585,8 +1678,8 @@
             updateContent();
             renderPlaces();
             renderReviews();
-            // renderGallery(); // Disabled
-            // renderRecommended(); // Disabled
+            // renderGallery();
+            renderRecommended();
         };
     </script>
 </body>
